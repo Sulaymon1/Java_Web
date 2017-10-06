@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calculator</title>
+    <link href="css/jumboron.css" rel="stylesheet">
+    <script src="js/validatescript.js"></script>
+</head>
+<body>
+    Basic Calculator
+    <form name="myForm" method="post" action="/calc" onsubmit="return validateForm()">
+        <input type="text" name="digit" required>
+        <input type="submit" name="mathaction" value="+">
+        <input type="submit" name="mathaction" value="-">
+        <input type="submit" name="mathaction" value="*">
+        <input type="submit" name="mathaction" value="/">
+        <input type="submit" formmethod="get" value="reset">
+    </form>
+</body>
+</html>
