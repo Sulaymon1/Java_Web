@@ -1,6 +1,7 @@
-models\Minus.class
-models\Multiplication.class
 servlets\CalculatorServlet.class
 models\Operation.class
 models\Division.class
+models\Minus.class
+models\Multiplication.class
+servlets\CalculatorDBServlet.class
 models\Plus.class

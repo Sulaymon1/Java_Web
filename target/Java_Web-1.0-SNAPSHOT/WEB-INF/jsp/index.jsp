@@ -17,7 +17,7 @@
    Basic Calculator
    <div class="container">
 <form name="myForm"  onsubmit="return validateForm()" method="post" action="/calc">
-    <input type="text" name="digit" >
+    <input type="text" name="digit" required>
     <input type="submit" name="mathaction" value="+">
     <input type="submit" name="mathaction" value="-">
     <input type="submit" name="mathaction" value="*">
